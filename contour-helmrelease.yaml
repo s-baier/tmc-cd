@@ -12,7 +12,7 @@ spec:
       sourceRef:
         kind: HelmRepository
         name: bitnami
-        namespace: bitnami
+        namespace: helm-system
       interval: 1m
   upgrade:
     remediation:
